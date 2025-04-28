@@ -1,0 +1,135 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+font-family: 'Poppins', sans-serif;
+line-height: 1.6;
+color: #333;
+background: #f5f7fa;
+}
+
+/* Navbar */
+nav {
+background: #0056b3;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo {
+color: #fff;
+font-weight: 700;
+font-size: 1.5rem;
+}
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+.nav-links a {
+color: #fff;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* Hero Section */
+header {
+background: linear-gradient(rgba(0, 86, 179, 0.7), rgba(0, 86, 179, 0.7)), url('https://source.unsplash.com/1600x600/?education') no-repeat center/cover;
+color: white;
+text-align: center;
+padding: 5rem 1rem;
+}
+header h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+.btn {
+background: #ff6b6b;
+padding: 0.8rem 1.5rem;
+border: none;
+color: white;
+font-size: 1rem;
+cursor: pointer;
+margin-top: 1rem;
+text-decoration: none;
+border-radius: 5px;
+}
+.btn:hover {
+background: #ff4757;
+}
+
+/* Sections */
+section {
+padding: 4rem 2rem;
+text-align: center;
+}
+.courses-container {
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin-top: 2rem;
+}
+.course-card {
+background: white;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+width: 300px;
+}
+form {
+max-width: 500px;
+margin: auto;
+background: white;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+form input, form select {
+width: 100%;
+margin-bottom: 1rem;
+padding: 0.8rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+/* Footer */
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 1rem;
+}
+
+/* Popup */
+.popup {
+display: none;
+position: fixed;
+z-index: 9999;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.5);
+}
+.popup-content {
+background: #fff;
+padding: 2rem;
+margin: 10% auto;
+width: 80%;
+max-width: 500px;
+border-radius: 10px;
+text-align: center;
+position: relative;
+}
+.close {
+position: absolute;
+right: 20px;
+top: 10px;
+font-size: 24px;
+cursor: pointer;
+}
